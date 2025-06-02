@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Foodeiblog Template">
+    <meta name="keywords" content="Foodeiblog, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ovqatzur</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Unna:400,700&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Humberger Begin -->
+    <div class="humberger__menu__overlay"></div>
+    <div class="humberger__menu__wrapper">
+        <div class="humberger__menu__logo">
+            <a href="./index.html"><img src="img/humberger/humberger-logo.png" alt=""></a>
+        </div>
+        <nav class="humberger__menu__nav mobile-menu">
+            <ul>
+                <li><a href="./index.html">Asosiy</a></li>
+                <li><a href="#">Retseptlar</a></li>
+                <li><a href="#">Ichimliklar</a></li>
+                <li><a href="#">Dessertlar</a></li>
+                <li class="dropdown"><a href="#">Sahifalar</a>
+                    <ul class="dropdown__menu">
+                        <li><a href="./categories-grid.html">Kategoriyalar jadvali</a></li>
+                        <li><a href="./categories-list.html">Kategoriyalar ro'yxati</a></li>
+                        <li><a href="./single-post.html">Xabarlar</a></li>
+                        <li><a href="./signin.html">Tizimga kirish</a></li>
+                        <li><a href="./typography.html">Reklama uchun</a></li>
+                    </ul>
+                </li>
+                <li><a href="./about.html">Sayt haqida</a></li>
+                <li><a href="./contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+        <div class="humberger__menu__about">
+            <div class="humberger__menu__title sidebar__item__title">
+                <h6>Biz haqimizda</h6>
+            </div>
+            <img src="img/humberger/humberger-about.jpg" alt="">
+            <h6>Hammaga salom! Men Mashhuraman.</h6>
+            <p>Men sizlarga ushbu saytni tavsiya qilaman!</p>
+            <div class="humberger__menu__about__social sidebar__item__follow__links">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-youtube-play"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-envelope-o"></i></a>
+            </div>
+        </div>
+        <div class="humberger__menu__subscribe">
+            <div class="humberger__menu__title sidebar__item__title">
+                <h6>Obuna boʻling</h6>
+            </div>
+            <p>Axborot kanalimizga obuna bo'ling va so'nggi yangiliklarimizni pochta qutingizga oling.</p>
+            <form action="#">
+                <input type="text" class="email-input" placeholder="Your email">
+                <label for="agree-check">
+                   Men shartlar va qoidalarga roziman
+                    <input type="checkbox" id="agree-check">
+                    <span class="checkmark"></span>
+                </label>
+                <button type="submit" class="site-btn">Obuna bo'lish</button>
+            </form>
+        </div>
+    </div>
+    <!-- Humberger End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-1 col-6 order-md-1 order-1">
+                        <div class="header__humberger">
+                            <i class="fa fa-bars humberger__open"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-10 order-md-2 order-3">
+                        <nav class="header__menu">
+                            <ul>
+                                <li class="active"><a href="./index.html">Asosiy</a></li>
+                                <li><a href="#">Retseptlar</a>
+                                    <div class="header__megamenu__wrapper">
+                                        <div class="header__megamenu">
+                                            <div class="header__megamenu__item">
+                                                <div class="header__megamenu__item--pic set-bg"
+                                                    data-setbg="img/megamenu/p-1.jpg">
+                                                    <div class="label">Taom1</div>
+                                                </div>
+                                                <div class="header__megamenu__item--text">
+                                                    <h5><a href="#">Har qanday muzqaymoq bilan sut kokteylini qanday tayyorlash mumkin...</a>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div class="header__megamenu__item">
+                                                <div class="header__megamenu__item--pic set-bg"
+                                                    data-setbg="img/megamenu/p-2.jpg">
+                                                    <div class="label">Taom2</div>
+                                                </div>
+                                                <div class="header__megamenu__item--text">
+                                                    <h5><a href="#">Har qanday muzqaymoq bilan sut kokteylini qanday tayyorlash mumkin...</a>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div class="header__megamenu__item">
+                                                <div class="header__megamenu__item--pic set-bg"
+                                                    data-setbg="img/megamenu/p-3.jpg">
+                                                    <div class="label">Taom3</div>
+                                                </div>
+                                                <div class="header__megamenu__item--text">
+                                                    <h5><a href="#">Har qanday muzqaymoq bilan sut kokteylini qanday tayyorlash mumkin...</a>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div class="header__megamenu__item">
+                                                <div class="header__megamenu__item--pic set-bg"
+                                                    data-setbg="img/megamenu/p-4.jpg">
+                                                    <div class="label">Taom3</div>
+                                                </div>
+                                                <div class="header__megamenu__item--text">
+                                                    <h5><a href="#">Har qanday muzqaymoq bilan sut kokteylini qanday tayyorlash mumkin...</a>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div class="header__megamenu__item">
+                                                <div class="header__megamenu__item--pic set-bg"
+                                                    data-setbg="img/megamenu/p-5.jpg">
+                                                    <div class="label">Taom4</div>
+                                                </div>
+                                                <div class="header__megamenu__item--text">
+                                                    <h5><a href="#">Har qanday muzqaymoq bilan sut kokteylini qanday tayyorlash mumkin...</a>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="#">Ichimliklar</a></li>
+                                <li><a href="#">Dessertlar</a></li>
+                                <li class="dropdown"><a href="#">Sahifalar</a>
+                                    <ul class="dropdown__menu">
+                                        <li><a href="./categories-grid.html">Kategoriyalar jadvali</a></li>
+                                        <li><a href="./categories-list.html">Kategoriyalar ro'yxati</a></li>
+                                        <li><a href="./single-post.html">Xabarlar</a></li>
+                                        <li><a href="./signin.html">Tizimga kirish</a></li>
+                                        <li><a href="./typography.html">Reklama uchun</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./about.html">Sayt haqida</a></li>
+                                <li><a href="./contact.html">Kontakt</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-2 col-md-1 col-6 order-md-3 order-2">
+                        <div class="header__search">
+                            <i class="fa fa-search search-switch"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="header__btn">
+                        <a href="./signin.html" class="primary-btn">Obuna bo'lish</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="header__logo">
+                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="header__social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero">
+        <div class="hero__slider owl-carousel">
+            <div class="hero__item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6 p-0">
+                            <div class="hero__inside__item hero__inside__item--wide set-bg"
+                                data-setbg="img/hero/hero-1.jpg">
+                                <div class="hero__inside__item__text">
+                                    <div class="hero__inside__item--meta">
+                                        <span>08</span>
+                                        <p>Aug</p>
+                                    </div>
+                                    <div class="hero__inside__item--text">
+                                        <ul class="label">
+                                            <li>Taom4</li>
+                                            <li>Dissertlar</li>
+                                        </ul>
+                                        <h4>Qo'ziqorinli bahoriy salat<br /> Asosiy xususiyatlar parhez salat hisoblanadi</h4>
+                                        <ul class="widget">
+                                            <li>by <span>Admin</span></li>
+                                            <li>3 minutda tayyor bo'ladi</li>
+                                            <li>1320 Commentariya</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6  p-0">
+                            <div class="hero__inside__item hero__inside__item--small set-bg"
+                                data-setbg="img/hero/hero-2.jpg">
+                                <div class="hero__inside__item__text">
+                                    <div class="hero__inside__item--meta">
+                                        <span>08</span>
+                                        <p>Aug</p>
+                                    </div>
+                                    <div class="hero__inside__item--text">
+                                        <ul class="label">
+                                            <li>Taom2</li>
+                                            <li>Dessertlar</li>
+                                        </ul>
+                                        <h5>Sezar salati<br />Ajoyib shirin salat</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero__inside__item hero__inside__item--small set-bg"
+                                data-setbg="img/hero/hero-3.jpg">
+                                <div class="hero__inside__item__text">
+                                    <div class="hero__inside__item--meta">
+                                        <span>08</span>
+                                        <p>Aug</p>
+                                    </div>
+                                    <div class="hero__inside__item--text">
+                                        <ul class="label">
+                                            <li>Taom3</li>
+                                            <li>Dessertlar</li>
+                                        </ul>
+                                        <h5>Qatiqli achchiq salat <br />ho'randalar uchun ajoyib salat</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6  p-0">
+                            <div class="hero__inside__item set-bg" data-setbg="img/hero/hero-4.jpg">
+                                <div class="hero__inside__item__text">
+                                    <div class="hero__inside__item--meta">
+                                        <span>08</span>
+                                        <p>Aug</p>
+                                    </div>
+                                    <div class="hero__inside__item--text">
+                                        <ul class="label">
+                                            <li>Taom4</li>
+                                            <li>Dessertlar</li>
+                                        </ul>
+                                        <h5>Ko'k salat <br />Foydali ziravor giyohlardan tayyorlangan</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6 p-0">
+                            <div class="hero__inside__item hero__inside__item--wide set-bg"
+                                data-setbg="img/hero/hero-1.jpg">
+                                <div class="hero__inside__item__text">
+                                    <div class="hero__inside__item--meta">
+                                        <span>08</span>
+                                        <p>Aug</p>
+                                    </div>
+                                    <div class="hero__inside__item--text">
+                                        <ul class="label">
+                                            <li>Taom4</li>
+                                            <li>Dissertlar</li>
+                                        </ul>
+                                        <h4>Qo'ziqorinli bahoriy salat<br /> Asosiy xususiyatlar parhez salat hisoblanadi</h4>
+                                        <ul class="widget">
+                                            <li>by <span>Admin</span></li>
+                                            <li>3 minutda tayyor bo'ladi</li>
+                                            <li>1320 Commentariya</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 p-0">
+                            <div class="hero__inside__item hero__inside__item--small set-bg"
+                                data-setbg="img/hero/hero-3.jpg">
+                                <div class="hero__inside__item__text">
+                                    <div class="hero__inside__item--meta">
+                                        <span>08</span>
+                                        <p>Aug</p>
+                                    </div>
+                                    <div class="hero__inside__item--text">
+                                        <ul class="label">
+                                            <li>Taom2</li>
+                                            <li>Dessertlar</li>
+                                        </ul>
+                                        <h5>Sezar salati<br />Ajoyib shirin salat</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero__inside__item hero__inside__item--small set-bg"
+                                data-setbg="img/hero/hero-2.jpg">
+                                <div class="hero__inside__item__text">
+                                    <div class="hero__inside__item--meta">
+                                        <span>08</span>
+                                        <p>Aug</p>
+                                    </div>
+                                    <div class="hero__inside__item--text">
+                                      <ul class="label">
+                                            <li>Taom3</li>
+                                            <li>Dessertlar</li>
+                                        </ul>
+                                        <h5>Qatiqli achchiq salat <br />ho'randalar uchun ajoyib salat</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 p-0">
+                            <div class="hero__inside__item set-bg" data-setbg="img/hero/hero-4.jpg">
+                                <div class="hero__inside__item__text">
+                                    <div class="hero__inside__item--meta">
+                                        <span>08</span>
+                                        <p>Aug</p>
+                                    </div>
+                                    <div class="hero__inside__item--text">
+                                        <ul class="label">
+                                            <li>Taom4</li>
+                                            <li>Dessertlar</li>
+                                        </ul>
+                                        <h5>Ko'k salat <br />Foydali ziravor giyohlardan tayyorlangan</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Categories Section Begin -->
+    <section class="categories spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="categories__item set-bg" data-setbg="img/categories/cat-1.jpg">
+                        <div class="categories__hover__text">
+                            <h5>Mahsulot1</h5>
+                            <p>28 sotilgan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="categories__item set-bg" data-setbg="img/categories/cat-2.jpg">
+                        <div class="categories__hover__text">
+                             <h5>Mahsulot2</h5>
+                            <p>30sotilgan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg">
+                        <div class="categories__hover__text">
+                             <h5>Mahsulot3</h5>
+                            <p>45 sotilgan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="categories__item set-bg" data-setbg="img/categories/cat-4.jpg">
+                        <div class="categories__hover__text">
+                            <h5>Mahsulot4</h5>
+                            <p>42 sotilgan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="categories__post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8">
+                        <div class="categories__post__item categories__post__item--large">
+                            <div class="categories__post__item__pic set-bg"
+                                data-setbg="img/categories/categories-post/cp-1.jpg">
+                                <div class="post__meta">
+                                    <h4>08</h4>
+                                    <span>Aug</span>
+                                </div>
+                            </div>
+                            <div class="categories__post__item__text">
+                                <ul class="post__label--large">
+                                    <li>Taomlar</li>
+                                    <li>Dessertlar</li>
+                                </ul>
+                                <h3><a href="#">Wayyy Too ma'lumotlariga ko'ra, bifteklarni mukammal pishirishning mutlaq eng yaxshi usuli</a></h3>
+                                <ul class="post__widget">
+                                    <li>by <span>Admin</span></li>
+                                    <li>3 minutda tayyor bo'ladi</li>
+                                    <li>45 Commentariya</li>
+                                </ul>
+                                <p>Sezar salati (Caesar salad) — klassik italyan-amerika taomlaridan biri bo‘lib, eng mashhurlaridan sanaladi. Bu salat odatda yengil, ammo to‘yimli bo‘lib, asosiy yoki yengil tushlik sifatida tanovul qilinadi.</p>
+                                <a href="#" class="primary-btn">Ko'proq o'qing</a>
+                                <div class="post__social">
+                                    <span>Ulashish</span>
+                                    <a href="#"><i class="fa fa-facebook"></i> <span>82</span></a>
+                                    <a href="#"><i class="fa fa-twitter"></i> <span>24</span></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i> <span>08</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="categories__post__item">
+                                    <div class="categories__post__item__pic small__item set-bg"
+                                        data-setbg="img/categories/categories-post/cp-2.jpg">
+                                        <div class="post__meta">
+                                            <h4>08</h4>
+                                            <span>Aug</span>
+                                        </div>
+                                    </div>
+                                    <div class="categories__post__item__text">
+                                        <span class="post__label">Retsept</span>
+                                        <h3><a href="#">Qarsildoq baliq taomi</a></h3>
+                                        <ul class="post__widget">
+                                            <li>by <span>Admin</span></li>
+                                            <li>15 minutda tayyor bo'ladi</li>
+                                            <li>120 Commentariya</li>
+                                        </ul>
+                                        <p>Qovurilgan baliq — juda mashhur va mazali taom bo‘lib, u turli usullar bilan tayyorlanadi. Odatda baliq bo‘laklari ziravorlar bilan marinad qilinib, un yoki non bo‘lagi bilan qoplab, yog‘da qovuriladi. </p>
+                                    </div>
+                                </div>
+                                <div class="categories__post__item">
+                                    <div class="categories__post__item__pic set-bg"
+                                        data-setbg="img/categories/categories-post/cp-4.jpg">
+                                        <div class="post__meta">
+                                            <h4>08</h4>
+                                            <span>Aug</span>
+                                        </div>
+                                    </div>
+                                    <div class="categories__post__item__text">
+                                        <ul class="post__label--large">
+                                            <li>Taom</li>
+                                            <li>Dessertlar</li>
+                                        </ul>
+                                        <h3><a href="#">Eng yaxshi o't dog'ini tozalash vositasi allaqachon sizning oshxonangizda</a></h3>
+                                        <ul class="post__widget">
+                                            <li>by <span>Admin</span></li>
+                                            <li>12 minutda tayyor bo'ladi</li>
+                                            <li>20 Commentariya</li>
+                                        </ul>
+                                        <p>Qovurilgan tuxum — eng oddiy, tez tayyorlanadigan va ommabop nonushta taomlaridan biri hisoblanadi. </p>
+                                    </div>
+                                </div>
+                                <div class="categories__post__item__plain set-bg"
+                                    data-setbg="img/categories/categories-post/cp-6.jpg">
+                                    <div class="categories__post__item__text">
+                                        <div class="post__meta">
+                                            <h4>08</h4>
+                                            <span>Aug</span>
+                                        </div>
+                                        <ul class="post__label--large">
+                                            <li>Taom</li>
+                                            <li>Dessertlar</li>
+                                        </ul>
+                                        <h3><a href="#">Bu yozgi gazak tort - eng shirin bahona...</a></h3>
+                                        <div class="post__social">
+                                            <span>Share</span>
+                                            <a href="#"><i class="fa fa-facebook"></i> <span>82</span></a>
+                                            <a href="#"><i class="fa fa-twitter"></i> <span>24</span></a>
+                                            <a href="#"><i class="fa fa-envelope-o"></i> <span>08</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="categories__post__item">
+                                    <div class="categories__post__item__pic smaller__large set-bg"
+                                        data-setbg="img/categories/categories-post/cp-8.jpg">
+                                        <div class="post__meta">
+                                            <h4>08</h4>
+                                            <span>Aug</span>
+                                        </div>
+                                    </div>
+                                    <div class="categories__post__item__text">
+                                        <span class="post__label">Sho'rva</span>
+                                        <h3><a href="#">Shirin va mazali sho'rva</a></h3>
+                                        <ul class="post__widget">
+                                            <li>by <span>Admin</span></li>
+                                            <li>3 minutda tayyor bo'ladi</li>
+                                            <li>20 Commentariya</li>
+                                        </ul>
+                                        <p>Sho‘rva — o‘zbek milliy oshxonasining eng mashhur va qadimiy taomlaridan biri bo‘lib, sho‘r suvli go‘shtli yoki sabzavotli taomdir.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="categories__post__item">
+                                    <div class="categories__post__item__pic smaller__large set-bg"
+                                        data-setbg="img/categories/categories-post/cp-3.jpg">
+                                        <div class="post__meta">
+                                            <h4>08</h4>
+                                            <span>Aug</span>
+                                        </div>
+                                    </div>
+                                    <div class="categories__post__item__text">
+                                        <span class="post__label">Shirin ichimliklar</span>
+                                        <h3><a href="#">Do'stingiz uchun 17 ta ajoyib sovg'a, chunki ba'zida ...</a>
+                                        </h3>
+                                        <ul class="post__widget">
+                                            <li>by <span>Admin</span></li>
+                                            <li>3 minutda tayyor bo'ladi</li>
+                                            <li>20 Comment</li>
+                                        </ul>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                            gravida...</p>
+                                    </div>
+                                </div>
+                                <div class="categories__post__item__small">
+                                    <img src="img/categories/categories-post/quote.png" alt="">
+                                    <p>Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt labore et dolore magna aliqua gravida.</p>
+                                    <div class="posted__by">Elena T.Jaivy</div>
+                                </div>
+                                <div class="categories__post__item">
+                                    <div class="categories__post__item__pic smaller__large set-bg"
+                                        data-setbg="img/categories/categories-post/cp-5.jpg">
+                                        <div class="post__meta">
+                                            <h4>08</h4>
+                                            <span>Aug</span>
+                                        </div>
+                                    </div>
+                                    <div class="categories__post__item__text">
+                                        <span class="post__label">Drinks</span>
+                                        <h3><a href="#">A 5-Minute Peach Mug Cobbler That Just So Happens to...</a></h3>
+                                        <ul class="post__widget">
+                                            <li>by <span>Admin</span></li>
+                                            <li>3 min read</li>
+                                            <li>20 Comment</li>
+                                        </ul>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                            gravida...</p>
+                                    </div>
+                                </div>
+                                <div class="categories__post__item">
+                                    <div class="categories__post__item__pic set-bg"
+                                        data-setbg="img/categories/categories-post/cp-7.jpg">
+                                        <div class="post__meta">
+                                            <h4>08</h4>
+                                            <span>Aug</span>
+                                        </div>
+                                    </div>
+                                    <div class="categories__post__item__text">
+                                        <ul class="post__label--large">
+                                            <li>Vegan</li>
+                                            <li>Desserts</li>
+                                        </ul>
+                                        <h3><a href="#">Fresh Herb Polenta with Parsnip Chips and Maple Butter</a></h3>
+                                        <ul class="post__widget">
+                                            <li>by <span>Admin</span></li>
+                                            <li>3 min read</li>
+                                            <li>20 Comment</li>
+                                        </ul>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                            gravida...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 text-center">
+                                <div class="load__more__btn">
+                                    <a href="#">Ko'proq o'qing</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="sidebar__item">
+                            <div class="sidebar__about__item">
+                                <div class="sidebar__item__title">
+                                    <h6>About me</h6>
+                                </div>
+                                <img src="img/sidebar/sidebar-about.jpg" alt="">
+                                <h6>Hammaga salom! Men Mashhuraman.</h6>
+                                <p>Men sizlarga ushbu saytni tavsiya qilaman!</p>
+                                <a href="#" class="primary-btn">Ko'proq o'qing</a>
+                            </div>
+                            <div class="sidebar__follow__item">
+                                <div class="sidebar__item__title">
+                                    <h6>Obuna bo'ling</h6>
+                                </div>
+                                <div class="sidebar__item__follow__links">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                </div>
+                            </div>
+                            <div class="sidebar__feature__item">
+                                <div class="sidebar__item__title">
+                                    <h6>Kerakli postlar</h6>
+                                </div>
+                                <div class="sidebar__feature__item__large set-bg"
+                                    data-setbg="img/sidebar/feature-post.jpg">
+                                    <div class="sidebar__feature__item__large--text">
+                                        <span>Dinner</span>
+                                        <h5><a href="#">This Japanese Way of Making Iced Coffee Is a Game...</a></h5>
+                                    </div>
+                                </div>
+                                <div class="sidebar__feature__item__list">
+                                    <div class="sidebar__feature__item__list__single">
+                                        <div class="post__meta">
+                                            <h4>08</h4>
+                                            <span>Aug</span>
+                                        </div>
+                                        <div class="post__text">
+                                            <span>Dinner</span>
+                                            <h5><a href="#">Grilled Potato and Green Bean Salad</a></h5>
+                                        </div>
+                                    </div>
+                                    <div class="sidebar__feature__item__list__single">
+                                        <div class="post__meta">
+                                            <h4>05</h4>
+                                            <span>Aug</span>
+                                        </div>
+                                        <div class="post__text">
+                                            <span>Smoothie</span>
+                                            <h5><a href="#">The $8 French Rosé I Buy in Bulk Every Summer</a></h5>
+                                        </div>
+                                    </div>
+                                    <div class="sidebar__feature__item__list__single">
+                                        <div class="post__meta">
+                                            <h4>26</h4>
+                                            <span>jul</span>
+                                        </div>
+                                        <div class="post__text">
+                                            <span>Desert</span>
+                                            <h5><a href="#">Ina Garten's Skillet-Roasted Lemon Chicken</a></h5>
+                                        </div>
+                                    </div>
+                                    <div class="sidebar__feature__item__list__single">
+                                        <div class="post__meta">
+                                            <h4>16</h4>
+                                            <span>jul</span>
+                                        </div>
+                                        <div class="post__text">
+                                            <span>Vegan</span>
+                                            <h5><a href="#">The Best Weeknight Baked Potatoes, 3 Creative Ways</a></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar__item__banner">
+                                <img src="img/sidebar/banner.jpg" alt="">
+                            </div>
+                            <div class="sidebar__item__categories">
+                                <div class="sidebar__item__title">
+                                    <h6>Kategoriyalar</h6>
+                                </div>
+                                <ul>
+                                    <li><a href="#">Recipes <span>128</span></a></li>
+                                    <li><a href="#">Dinner <span>32</span></a></li>
+                                    <li><a href="#">Dessert <span>86</span></a></li>
+                                    <li class="p-left"><a href="#">Smothie <span>25</span></a></li>
+                                    <li class="p-left"><a href="#">Drinks <span>36</span></a></li>
+                                    <li class="p-left"><a href="#">Cakes <span>15</span></a></li>
+                                    <li><a href="#">Vegan <span>63</span></a></li>
+                                    <li><a href="#">Weightloss <span>27</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="sidebar__subscribe__item">
+                                <div class="sidebar__item__title">
+                                    <h6>Obuna boʻling</h6>
+                                </div>
+                                <p>Axborot kanalimizga obuna bo'ling va so'nggi yangiliklarimizni pochta qutingizga oling.</p>
+                                <form action="#">
+                                    <input type="text" class="email-input" placeholder="sizning pochtangiz">
+                                    <label for="s-agree-check">
+                                        Men shartlar va qiodalarga roziman
+                                        <input type="checkbox" id="s-agree-check">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <button type="submit" class="site-btn">Obuna bo'lish</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Categories Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="footer__instagram">
+                <div class="footer__instagram__avatar">
+                    <div class="footer__instagram__avatar--pic">
+                        <img src="img/footer/instagram-avatar.jpg" alt="">
+                    </div>
+                    <div class="footer__instagram__avatar--text">
+                        <h5>@ foodieblog</h5>
+                        <span>23,7k follower</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                        <div class="footer__instagram__item set-bg" data-setbg="img/footer/ip-1.jpg"></div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                        <div class="footer__instagram__item set-bg" data-setbg="img/footer/ip-2.jpg"></div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                        <div class="footer__instagram__item set-bg" data-setbg="img/footer/ip-3.jpg"></div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                        <div class="footer__instagram__item set-bg" data-setbg="img/footer/ip-4.jpg"></div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                        <div class="footer__instagram__item set-bg" data-setbg="img/footer/ip-5.jpg"></div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-6">
+                        <div class="footer__instagram__item set-bg" data-setbg="img/footer/ip-6.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer__text">
+                        <div class="footer__logo">
+                            <a href="#"><img src="img/logo.png" alt=""></a>
+                        </div>
+                        <p>Ajoyib interaktiv veb-sayt<br /> <br />  </p>
+                        <div class="footer__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#"><i class="fa fa-envelope-o"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer__copyright">
+                        <p>
+   &copy;<script>document.write(new Date().getFullYear());</script> Barcha huquqlar himoyalangan<i class="fa fa-heart" aria-hidden="true"></i>
+  </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Search Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
